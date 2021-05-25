@@ -26,7 +26,7 @@ const App = () => {
             },
             headerRight: () => (
               <View>
-                <Text>Some Text</Text>
+                <Text>UwU/*</Text>
               </View>
             ),
           })}
