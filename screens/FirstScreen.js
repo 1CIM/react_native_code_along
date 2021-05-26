@@ -20,7 +20,7 @@ const FirstScreen = ({ navigation }) => {
     <View style={styles.container}>
       <FlatList
         data={articles}
-        // keyExtractor={(article) => article.id}
+        keyExtractor={(article) => article.id.toString()}
         renderItem={({ item }) => {
           return <Article article={item} navigation={navigation} />;
         }}

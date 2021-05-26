@@ -32,8 +32,7 @@ const App = () => {
           })}
         />
         <Stack.Screen name='Second Screen' component={SecondScreen} options={() => ({
-          title: 'BonK!',
-          headerBackTitle: 'Bonk!'
+          headerBackTitle: 'Bonk!',
         })} />
       </Stack.Navigator>
     </NavigationContainer>
