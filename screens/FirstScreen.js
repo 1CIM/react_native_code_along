@@ -8,7 +8,7 @@ const FirstScreen = ({ navigation }) => {
 
   const fetchArticles = async () => {
     const response = await axios.get(
-      'https://fakest-newzz.herokuapp.com/api/articles'
+      'https://fakest-newzz.herokuapp.com/api/articles/'
     );
     setArticles(response.data.articles);
   };
